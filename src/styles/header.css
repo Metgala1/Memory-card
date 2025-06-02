@@ -1,0 +1,38 @@
+
+.header{
+    border: 3px solid goldenrod;
+    border-radius: 1rem;
+    padding-right: 1rem;
+    padding-left: 0.5rem;
+}
+.header-div{
+    display: flex;
+    padding-right: 1rem;
+    
+   
+}
+
+.header-title{
+    color: goldenrod;
+    font-size: 4rem;
+    font-weight: 900;
+}
+.score, .best-score{
+    color: goldenrod;
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: 90;
+
+}
+
+.score-div{
+    margin-left: auto;
+    align-self: center;
+  
+}
+.rule{
+    color: goldenrod;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 0;
+}
