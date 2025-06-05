@@ -1,0 +1,14 @@
+.cardsBox {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 1.5rem;
+    width: 95%;
+    margin: 1rem auto;
+    padding: 2rem 1rem 3rem 1rem;
+    border-radius: 18px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+    max-height: 90vh;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: black goldenrod;
+}

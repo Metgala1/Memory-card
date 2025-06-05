@@ -1,33 +1,45 @@
 
+@font-face {
+    font-family: 'pokemon';
+    src: url('../fonts/pokemon/Pokemon Hollow.ttf') format('truetype');
+}
+
 .header{
-    border: 3px solid goldenrod;
     border-radius: 1rem;
     padding-right: 1rem;
     padding-left: 0.5rem;
+    margin: auto;
 }
 .header-div{
-    display: flex;
-    padding-right: 1rem;
+    text-align: center;
+    margin: auto;
+    font-family: 'pokemon';
+    
     
    
 }
-
 .header-title{
     color: goldenrod;
     font-size: 4rem;
     font-weight: 900;
+    margin: 0;
+    margin-bottom: 1rem;
 }
 .score, .best-score{
     color: goldenrod;
     text-align: left;
     font-size: 1.5rem;
     font-weight: 90;
+    font-family: 'pokemon';
 
 }
 
 .score-div{
-    margin-left: auto;
-    align-self: center;
+    width: 50%;
+    display: flex;
+    gap: 2rem;
+    margin: auto;
+    justify-content: space-between;
   
 }
 .rule{
